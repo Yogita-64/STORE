@@ -26,3 +26,5 @@ It offers a clean and elegant design, ensuring a distraction-free shopping exper
 
 
 ![Screenshot 2025-04-10 171809](https://github.com/user-attachments/assets/3ae6384f-5193-4c95-8de5-404ed3723007)
+
+![Screenshot 2025-04-10 195400](https://github.com/user-attachments/assets/c67b9bea-4806-4632-9b77-6a36a696f5ce)
