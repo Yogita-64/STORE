@@ -1,0 +1,315 @@
+body{
+    background-color: black;
+}
+.navbar-brand{
+    color: purple;
+}
+.card-group{
+    margin-top: 50px;
+}
+.carousel slide{
+    margin-top: 30x;
+    height: 300px;
+}
+#carouselExampleDark{
+    height: 400px;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  .like-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+
+  .custom-btn {
+    height: 50px; /* Set your desired height here */
+    width: 200px;
+   border: 2px;
+   border-color: black;
+   border-width: 5px;
+   color: black;
+   
+   
+  }
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Full viewport height */
+   
+  }
+
+  .custom-btn:hover {
+    background-color:black ;/* Change to your desired hover color */
+    border-color:black; /* Match border color to background color */
+  }
+
+
+
+  /*  START THE BLOG CSS */
+
+
+
+  .blog-image {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full height */
+    background-image: url('/htmlpro/bg\ image\ blog.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-textb {
+  align-items: flex-start;
+  color:rgb(167, 113, 113);
+  font-size: 100px;
+  font-weight: bold;
+  text-align:center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text */
+}
+
+
+/* here start the search button */
+
+.rounded-pill{
+  outline-color: black;
+  outline-width: 3px;
+  width: 300px;
+}
+
+#name{
+  width:310px;
+  height: 50px;
+  
+}
+#email{
+  width:310px;
+  height: 50px;
+}
+
+#web{
+  width:310px;
+  height: 50px;
+}
+
+
+/*  ABOUT BG IMAGE CSS */
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height */
+  background-image: url("/htmlpro/BG\ ABOUT\ 2.jpg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  align-items: flex-start;
+  color:rgb(148, 148, 215);
+  font-size: 100px;
+  font-weight: bold;
+  text-align:center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text */
+}
+
+
+/* CONTACT US CSS */
+.contact-image {
+  position: absolute;
+  width: 100%;
+  height: 70vh; /* Full height */
+  background-image: url('/CONTACT\ 2.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.overlay-textc {
+  
+  color:black;
+  font-size:80px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text */
+}
+
+
+.border-box {
+  width: 700px;
+  height: 50px;
+  border: 1px solid #ddd; /* Thin border */
+  align-items: center;
+  /* margin-bottom:3px; */
+  justify-content: space-between;
+  display: flex;
+  margin-top: 60px;
+  padding-top: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: small;
+}
+
+.border-box2 {
+  width: 700px;
+  height: 200px;
+  border: 1px solid #ddd; /* Thin border */
+  align-items: center;
+  /* margin-bottom:3px; */
+  justify-content: space-between;
+  display: flex;
+  /* margin-top: 60px; */
+  /* padding-top: 5px; */
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  padding-left: 30px;
+}
+
+.border-box3 {
+  width: 700px;
+  height: 200px;
+  border: 1px solid #ddd; /* Thin border */
+  align-items: center;
+  /* margin-bottom:3px; */
+  justify-content: space-between;
+  display: flex;
+  /* margin-top: 60px; */
+  /* padding-top: 5px; */
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  padding-left: 30px;
+}
+
+.border-box4 {
+  width: 700px;
+  height: 200px;
+  border: 1px solid #ddd; /* Thin border */
+  align-items: center;
+  /* margin-bottom:3px; */
+  justify-content: space-between;
+  display: flex;
+  /* margin-top: 60px;
+  padding-top: 5px; */
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  padding-left: 30px;
+}
+.block{
+  border-width:3%;
+  border-color:black;
+  border-radius:45px;
+  width: 50px;
+  height: 20px;
+}
+
+.border-box5 {
+  width: 350px;
+  height: 500px;
+  border: 1px solid #ddd; /* Thin border */
+  align-items: center;
+
+  justify-content: space-between;
+  display: flex;
+
+ 
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+.border-boxK {
+  width: 700px;
+  height: 200px;
+  border: 1px solid #ddd; /* Thin border */
+  align-items: center;
+  /* margin-bottom:3px; */
+  justify-content: space-between;
+  display: flex;
+  /* margin-top: 60px; */
+  /* padding-top: 5px; */
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  padding-left: 30px;
+}
+
+
+
+
+/* top icons css */
+.wrap-icon-header
+{
+  display: flex;
+ 
+}
+
+.icon-header-item
+{
+  margin-right: 30px;
+}
+
+.icon-header-item:last-child {
+  margin-right: 0; /* Removes the margin from the last item */
+}
+
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+/*  contact page css */
+
+.background-imageContact {
+  background-image: url('/img/man-suit-is-holding-phone-text-it_1276840-33745.avif'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  color: white;
+}
+.text-left {
+          
+            position: relative;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            padding: 20px;
+            /* background-color: rgba(0, 0, 0, 0.5); Optional: Add a semi-transparent background to make the text more readable */
+        }
+
+.form-control{
+  height:10vh;
+  margin-top: 10vh;
+}
+
+.wrap-icon-header2
+{
+  display: flex;
+}
+.icon-header-item2
+{
+  margin-right: 30px;
+}
+.icon-header-item2:last-child{
+  margin-right: 0; 
+}
